@@ -14,7 +14,8 @@ border-radius: 5px;
 color: white;
 font-size: 20px;
 font-weight: 700;
-padding: 15px 35px;
+padding: 15px 35px;text-indent: 0cqmin;
+text-decoration: ;
  
 }
 /* nav related styles */
@@ -22,6 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
   
 }
 .nav-title {
@@ -56,4 +58,32 @@ nav li:hover{
  }
  nav li:hover .dropdown{
     display: block;
+ }
+ .header{
+    background-color: #FFF8F3;
+ }
+ .banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+ }
+ .banner .profile-pic{
+    width: 500px;
+ }
+.primary{    
+    border-radius: 5px;
+    background-color: #Fd6E0A;
+    border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;text-indent: 0cqmin;
+  text-decoration: ;
+   
+ }
+ .primary:hover{
+   color: blue;
+ }
+ .btn-primary:hover{
+    color: blue;
  }
