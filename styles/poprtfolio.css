@@ -234,3 +234,9 @@ color: #0a2ffd;
    width: 100%;
 
  }
+.section-title:hover{
+color: chartreuse;
+}
+.social-links:hover{
+ color: darkorange;
+}
